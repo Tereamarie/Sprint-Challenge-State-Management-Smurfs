@@ -6,7 +6,7 @@
 }
 
 .smurf-box {
-  border: 1rem solid #40bce7;
+  border: 1rem solid #6d40e7;
   border-radius: 5px;
   margin: 1rem auto;
   padding: 1rem;
@@ -22,9 +22,8 @@
 }
 
 form {
-  background: rgba(64, 188, 231, 0.75);
+  background: rgba(170, 64, 231, 0.75);
   padding: 20px;
-  border: 1px solid red;
 }
 
 .imgContainer {
@@ -41,7 +40,7 @@ form {
 }
 
 footer {
-  background-color: rgba(146, 1, 26, 0.8);
+  background-color: rgba(130, 119, 139, 0.8);
   color: white;
   margin: 3rem 0 0 0;
   padding: 1rem;
