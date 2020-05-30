@@ -54,11 +54,17 @@ a {
 label {
   font-size: 2rem;
   margin: 1rem;
-}
+  }
 
 input {
   font-size: 1.75rem;
-  margin: 1rem;
+  margin: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  
 }
 
 button {
