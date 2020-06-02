@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
+  /*background: url('images/mushroom.jpg');*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+h1, h2, h3, h4, p {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h2 {
+  font-size: 3rem;
+  background:rgba(199, 117, 192, 0.9);
+  margin: 1rem 0 0 0;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h3 {
+  font-size: 2.25rem;
+  font-family: 'Luckiest Guy', cursive;
+  letter-spacing: 0.25rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: rgb(65, 34, 148);
+}
+
+label {
+  font-size: 2rem;
+  margin: 1rem;
+  }
+
+input {
+  font-size: 1.75rem;
+  margin: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  
+}
+
+button {
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-family: 'Raleway', sans-serif;
 }

@@ -1,3 +1,47 @@
-.App {
-  text-align: center;
+.smurfs-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.smurf-box {
+  border: 1rem solid #6d40e7;
+  border-radius: 5px;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 32%;
+  background: rgba(255,255,255, 0.75);
+  border: 1px solid red;
+}
+
+@media (max-width: 500px) {
+  .smurf-box {
+    width: 90%;
+  }
+}
+
+form {
+  background: rgba(170, 64, 231, 0.75);
+  padding: 20px;
+}
+
+.imgContainer {
+  width: 4rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.imgContainer img {
+  width: 100%;
+}
+
+footer {
+  background-color: rgba(130, 119, 139, 0.8);
+  color: white;
+  margin: 3rem 0 0 0;
+  padding: 1rem;
 }
